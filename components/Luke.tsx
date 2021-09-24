@@ -8,10 +8,11 @@ const Wrapper = styled.button<{ open: boolean }>`
   text-align: center;
   font-size: 50px;
   color: white;
-  width: 200px;
   height: 200px;
-  background-color: ${(props) => (props.open ? "red" : "blue")};
+  background-color: ${(props) => (props.open ? "#ff0c00" : "#ff0c00")};
   cursor: pointer;
+  border-radius: 10px;
+  border: 0;
 `;
 
 interface Props {
